@@ -5,7 +5,6 @@ public class Dollar {
 	public Dollar(int amount) {
 		this.amount = amount;
 	}
-
 	public Dollar times(int multiplier) {
 		int resultantAmount = this.amount * multiplier;
 		return new Dollar(resultantAmount);
