@@ -18,14 +18,12 @@ public class Dollar {
 	}
 
 	@Override
-	public
-	String toString() {
+	public String toString() {
 		return "$" + this.amount;
 	}
 
 	@Override
-	public
-	boolean equals(Object other) {
+	public boolean equals(Object other) {
 		if (other instanceof Dollar && this.amount == ((Dollar) other).amount) {
 			return true;
 		}
