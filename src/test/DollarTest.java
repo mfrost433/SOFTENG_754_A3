@@ -1,7 +1,8 @@
-package net.softeng.A3.test;
+package test;
 
 import org.junit.Test;
-import net.softeng.A3.Dollar;
+
+import main.Dollar;
 
 import static org.junit.Assert.assertEquals;
 

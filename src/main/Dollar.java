@@ -1,4 +1,4 @@
-package net.softeng.A3;
+package main;
 
 public class Dollar {
 	private int amount;
