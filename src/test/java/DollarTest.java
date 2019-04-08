@@ -1,8 +1,8 @@
-package test;
+package test.java;
 
 import org.junit.Test;
 
-import main.Dollar;
+import main.java.Dollar;
 
 import static org.junit.Assert.assertEquals;
 
