@@ -14,7 +14,7 @@ public class DollarTest {
 		// When
 		Dollar result = ten.dividedBy(2);
 
-		assertEquals(new Dollar(6), result); // You could change 5 to 4 to see the build failure
+		assertEquals(new Dollar(5), result); // You could change 5 to 4 to see the build failure
 	}
 
 	@Test(expected = ArithmeticException.class)
